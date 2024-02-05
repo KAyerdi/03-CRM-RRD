@@ -7,7 +7,7 @@ const Layout = () => {
         <h2 className='text-4xl font-black text-center text-white'>CRM - Clientes </h2>
         <nav className='mt-10'>
           <Link className='text 2xl block mt-2 hover:text-blue-300 text-white' to='/'>Clientes </Link>
-          <Link className='text 2xl block mt-2 hover:text-blue-300 text-white' to='/clientes/nuevo'>Nuevo Cliente </Link>
+          <Link className='text 2xl  block mt-2 hover:text-blue-300 text-white' to='/clientes/nuevo'>Nuevo Cliente </Link>
         </nav>
       </aside>
 
