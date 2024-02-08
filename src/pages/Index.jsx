@@ -1,18 +1,17 @@
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 import Cliente from "../components/Cliente";
+import { obtenerClientes } from '../data/Clientes';
 
 export function loader() {
+  const clientes = obtenerClientes()
   
-  
-  
-
+  return
 }
 
 function Index() {
   const clientes = useLoaderData();
 
-
+  //Error Boundaries
 
   return (
     <>
