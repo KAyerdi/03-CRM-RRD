@@ -5,6 +5,7 @@ import Layout from './components/Layout'
 import './index.css'
 import Index, { loader as clientesLoader } from './pages/Index'
 import NuevoCliente, { action as nuevoClienteAction } from './pages/NuevoCliente'
+import ErrorPage from './components/ErrorPage'
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
         index: true,
         element: <Index />,
         loader: clientesLoader,
-        errorElement: <a>"Hubo un error"</a>
+        errorElement: <ErrorPage />
       },
       {
         path: "/clientes/nuevo",
