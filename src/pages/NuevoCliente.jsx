@@ -6,9 +6,7 @@ import { agregarCliente } from '../data/Clientes';
 
 export async function action({ request }) {
   const formData = await request.formData();
-
   const datos = Object.fromEntries(formData);
-
   const email = formData.get("email");
 
   //Validacion
@@ -28,14 +26,12 @@ export async function action({ request }) {
   if (Object.keys(errores).length) {
     return errores;
   }
-
   await agregarCliente(datos)
 
   return redirect('/')
 }
 
 function NuevoCliente() {
-
   const navigate = useNavigate()
   const errores = useActionData()
 
