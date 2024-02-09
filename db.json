@@ -42,6 +42,14 @@
       "email": "kevin.ayerdi@hotmail.com",
       "telefono": "02474441089",
       "notas": "EL macho"
+    },
+    {
+      "id": "28a1",
+      "nombre": "Kevin  Ayerdi",
+      "empresa": "Rascat",
+      "email": "kevin.ayerdi@hotmail.com",
+      "telefono": "02474441089",
+      "notas": "Cliente positivo"
     }
   ]
 }
