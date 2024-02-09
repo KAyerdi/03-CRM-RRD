@@ -5,7 +5,7 @@ export async function loader({params}){
   if(Object.values(cliente).length === 0) {
     throw new Response('',{
       status: 404,
-      statusText: 'No hay Resultados'
+      statusText: 'El Cliente no fue encontrado'
     })
   }
   
